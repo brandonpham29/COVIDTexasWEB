@@ -1,0 +1,40 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texasTotal {
+  margin: 0;
+  padding: 0;
+}
+
+.search-bar{
+  width: 50%;
+  padding: 10px;
+}
+
+.search-button{
+  background: orange;
+  padding: 10px 20px;
+  color: white;
+}
+
+.allButton{
+  background: red;
+  padding: 10px 20px;
+  color: white;
+}
+
+.Counties{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
